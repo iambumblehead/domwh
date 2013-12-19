@@ -1,0 +1,11 @@
+/* Filename: test.css
+ * Timestamp: 2013.12.18-21:01:15 (last modified)  
+ * Author(s): Bumblehead (www.bumblehead.com)  
+ */
+
+.block {
+    background-color:blue;
+    height:40px;
+    width:40px;
+    display:inline-block;
+}

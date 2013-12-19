@@ -1,0 +1,17 @@
+{
+  "name": "domwh",
+  "version": "0.0.1",
+  "readmeFilename": "README.md",
+  "license" : "MIT",
+  "description": "obtain [width, height] from an element or window",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iambumblehead/domwh.git"
+  },
+  "keywords": [
+    "width",
+    "height",
+    "element",
+    "dom"
+  ]
+}
