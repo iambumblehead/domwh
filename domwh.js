@@ -1,5 +1,5 @@
 // Filename: domwh.js  
-// Timestamp: 2013.12.18-20:33:32 (last modified)  
+// Timestamp: 2013.12.24-17:03:48 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)  
 
 var domwh = (function (p, d, doc) {
@@ -7,11 +7,9 @@ var domwh = (function (p, d, doc) {
   doc = document;
 
   p = function(elem) {
-    var dims = [], d;
+    var d, dims = [elem.offsetWidth, elem.offsetHeight];
 
-    if (elem.offsetWidth) {
-      dims = [elem.offsetWidth, elem.offsetHeight];
-    } else {
+    if (!dims[0]) {
       d = elem.style;      
       if (d.display === 'none') {
         d.display = 'block';
