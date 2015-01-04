@@ -1,10 +1,10 @@
 // Filename: domwh.js  
-// Timestamp: 2013.12.24-17:03:48 (last modified)  
+// Timestamp: 2015.01.03-17:27:17 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)  
 
-var domwh = (function (p, d, doc) {
+var domwh = ((typeof module === 'object') ? module : {}).exports = (function (p, d, doc) {
 
-  doc = document;
+  doc = typeof document !== 'undefined' && doc;
 
   p = function(elem) {
     var d, dims = [elem.offsetWidth, elem.offsetHeight];
