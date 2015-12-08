@@ -1,6 +1,6 @@
 {
   "name": "domwh",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "readmeFilename": "README.md",
   "license" : "MIT",
   "description": "obtain [width, height] from an element or window",

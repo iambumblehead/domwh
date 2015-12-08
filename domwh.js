@@ -2,7 +2,7 @@
 // Timestamp: 2015.01.03-17:27:17 (last modified)  
 // Author(s): Bumblehead (www.bumblehead.com)  
 
-var domwh = ((typeof module === 'object') ? module : {}).exports = (function (p, d, doc) {
+var domwh = module.exports = (function (p, d, doc) {
 
   doc = typeof document !== 'undefined' && doc;
 
